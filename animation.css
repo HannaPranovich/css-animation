@@ -1,3 +1,888 @@
 @keyframes fox {
+  0%,
+  100% {
+    transform: translate(0px, 0px) rotate(6deg);
+  }
+  8.00% {
+    transform: translate(0px, -2px) rotate(6deg);
+  }
+  16.50% {
+    transform: translate(0px, -4px) rotate(6deg);
+  }
+  33.00% {
+    transform: translate(0px, -1px) rotate(6deg);
+  }
+  49.16% {
+    transform: translate(0px, -4px) rotate(3deg);
+  }
+  66.00% {
+    transform: translate(0px, -6px) rotate(3deg);
+  }
+  83.00% {
+    transform: translate(0px, 0px) rotate(6deg);
+  }
+}
 
+@keyframes foxBack {
+  0%,
+  100% {
+    transform: translate(0px, 0px) skew(-10deg, -6deg);
+    border-radius: 35% 198% 19% 83% / 120% 218% 77% 116%;
+  }
+  8.00% {
+    transform: translate(-1px, -1px) skew(-11deg, -7deg);
+  }
+  16.50% {
+    transform: translate(-1px, -5px) skew(-13deg, -6deg);
+  }
+  33.00% {
+    transform: translate(-1px, -2px) skew(-11deg, -4deg);
+  }
+  49.50% {
+    transform: translate(-3px, 1px) skew(-7deg, -10deg) rotate(11deg)
+      scaleX(1.08);
+    border-radius: 35% 190% 19% 83% / 120% 218% 75% 116%;
+  }
+  66.00% {
+    transform: translate(-3px, 1px) skew(-4deg, -10deg) rotate(11deg)
+      scaleX(1.05);
+  }
+  83.00% {
+    transform: translate(0px, 1px) skew(-4deg, -10deg) rotate(11deg) scaleX(1);
+    border-radius: 35% 190% 32% 83% / 120% 218% 75% 116%;
+  }
+}
+
+@keyframes foxPawFrontRight {
+  0%,
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  8.00% {
+    transform: translate(0px, 0px) rotate(24deg);
+  }
+  16.50% {
+    transform: translate(6px, -4px) rotate(38deg);
+  }
+  33.00% {
+    transform: translate(17px, 4px) rotate(38deg);
+  }
+  49.50% {
+    transform: translate(31px, 5px) rotate(-11deg);
+  }
+  66.00% {
+    transform: translate(14px, 42px) rotate(-81deg);
+  }
+  83.00% {
+    transform: translate(-2px, -5px) rotate(-8deg);
+  }
+}
+
+@keyframes foxBootPawFrontRight {
+  0%,
+  100% {
+    transform: translate(0px, 0px) rotate(-40deg);
+    background: var(--orange);
+    box-shadow: inset 1px -15px 0 -7px var(--brown);
+  }
+  8.00% {
+    transform: translate(1px, 1px) rotate(-37deg);
+  }
+  16.50% {
+    transform: translate(1px, 12px) rotate(10deg);
+  }
+  33.00% {
+    transform: translate(1px, 12px) rotate(10deg);
+  }
+  49.50% {
+    transform: translate(1px, 12px) rotate(10deg);
+    border-radius: 40px 14px 40px 9px;
+    box-shadow: none;
+    background: radial-gradient(
+        circle at 21% 145%,
+        var(--brown) 52%,
+        var(--orange) 0%
+      )
+      0px 0px;
+  }
+  66.00% {
+    background: radial-gradient(
+        circle at 41% 9%,
+        var(--orange) 70%,
+        var(--brown) 0%
+      )
+      0px 0px;
+  }
+  83.00% {
+    transform: translate(-3px, 8px) rotate(-37deg);
+    border-radius: 40px 14px 40px 20px;
+    box-shadow: none;
+    background: radial-gradient(
+        circle at 44% 9%,
+        var(--orange) 70%,
+        var(--brown) 0%
+      )
+      0px 0px;
+  }
+}
+
+@keyframes foxPawBackRight {
+  0%,
+  100% {
+    transform: translate(0px, 0px) rotate(-8deg);
+  }
+  8.00% {
+    transform: translate(7px, 10px) rotate(-28deg);
+  }
+  16.50% {
+    transform: translate(6px, 15px) rotate(-38deg);
+  }
+  33.00% {
+    transform: translate(-12px, 4px) rotate(-38deg);
+  }
+  49.50% {
+    transform: translate(-35px, 2px) rotate(0deg);
+  }
+  66.00% {
+    transform: translate(-26px, 2px) rotate(18deg);
+  }
+  83.00% {
+    transform: translate(-4px, 6px) rotate(-25deg);
+  }
+}
+
+@keyframes foxBootPawBackRight {
+  0%,
+  100% {
+    transform: translate(0px, 0px) rotate(-8deg);
+  }
+  8.00% {
+    transform: translate(-4px, 0px) rotate(19deg);
+  }
+  16.50% {
+    /* background: radial-gradient(
+        ellipse at -17% 94%,
+        var(--brown) 43%,
+        var(--orange) 0%
+      )
+      0px 0px;
+    border-radius: 20px 0px 37px 20px; */
+    transform: translate(0px, -4px) rotate(-1deg);
+  }
+
+  33.00% {
+    transform: translate(7px, 0px) rotate(-58deg);
+    border-radius: 20px 0px 40px 20px / 28px 3px 40px 21px;
+    background: var(--orange);
+    box-shadow: inset 9px -11px 0 -9px var(--brown);
+  }
+  49.50% {
+    transform: translate(9px, -8px) rotate(-51deg);
+    border-radius: 16px 0px 100px 61px / 47px 0px 100px 40px;
+    background: var(--orange);
+    box-shadow: inset 15px -19px 0 -15px var(--brown);
+  }
+  66.00% {
+    transform: translate(-5px, 1px) rotate(20deg);
+    border-radius: 16px 0px 100px 61px / 47px 0px 100px 40px;
+    background: var(--orange);
+    box-shadow: inset 11px -22px 0 -15px var(--brown);
+  }
+  83.00% {
+    transform: translate(-5px, 0px) rotate(22deg);
+    border-radius: 80px 0px 159px 0px / 80px 0px 160px 0px;
+    background: radial-gradient(
+        ellipse at 8% 107%,
+        var(--brown) 39%,
+        var(--orange) 0%
+      )
+      0px 0px;
+    box-shadow: none;
+  }
+}
+
+@keyframes foxTail {
+  0%,
+  100% {
+    height: 168px;
+    transform: translate(0px, 0px) rotate(-11deg);
+    box-shadow: inset 2px -3px 0px var(--black);
+  }
+  8.00% {
+    height: 175px;
+    transform: translate(-16px, -10px) rotate(0deg);
+  }
+  16.50% {
+    transform: translate(-23px, -16px) rotate(5deg);
+  }
+  33.00% {
+    height: 183px;
+    transform: translate(-22px, -18px) rotate(5deg);
+    background: radial-gradient(
+        ellipse at 24% 54%,
+        var(--orange) 56%,
+        var(--orange-light) 0%
+      )
+      3px -3px;
+    border-radius: 132px 0px 88% 0% / 44px 0px 115% 0%;
+  }
+  49.50% {
+    height: 170px;
+    transform: translate(-9px, -2px) rotate(-11deg);
+    background: radial-gradient(
+          ellipse at 0% 100%,
+          var(--orange-light) 5%,
+          transparent 0%
+        )
+        0px 0px,
+      radial-gradient(
+          ellipse at 24% 54%,
+          var(--orange) 61%,
+          var(--orange-light) 0%
+        )
+        0px 2px;
+    border-radius: 132px 0px 88% 50% / 44px 0px 115% 4%;
+    box-shadow: inset 0px -2px 0px var(--black);
+  }
+  66.00% {
+    height: 170px;
+    transform: translate(14px, -3px) rotate(-27deg);
+    background: radial-gradient(
+          ellipse at 0% 100%,
+          var(--orange-light) 5%,
+          transparent 0%
+        )
+        0px 0px,
+      radial-gradient(
+          ellipse at 24% 53%,
+          var(--orange) 61%,
+          var(--orange-light) 0%
+        )
+        0px 2px;
+    border-radius: 142px 0px 117% 32% / 44px 0px 124% 4%;
+  }
+  83.00% {
+    height: 166px;
+    transform: translate(8px, 0px) rotate(-13deg);
+    background: radial-gradient(
+          ellipse at 0% 100%,
+          var(--orange-light) 5%,
+          transparent 0%
+        )
+        0px 0px,
+      radial-gradient(
+          ellipse at 22% 65%,
+          var(--orange) 61%,
+          var(--orange-light) 0%
+        )
+        0px 1px;
+    border-radius: 142px 0px 102% 23% / 44px 0px 122% 2%;
+  }
+}
+
+@keyframes foxPawFrontLeft {
+  0%,
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+    border-right: 2px solid var(--black);
+  }
+  8.00% {
+    transform: translate(0px, 3px) rotate(-16deg);
+  }
+  16.50% {
+    transform: translate(0px, 3px) rotate(-20deg);
+  }
+  33.00% {
+    border-radius: 16px 0px 22px 55px / 36px 0px 22px 96px;
+    border-right: none;
+    transform: translate(-14px, -8px) rotate(-2deg);
+  }
+  49.50% {
+    border-radius: 0px 0px 22px 30px / 36px 0px 22px 77px;
+    border-right: 2px solid var(--black);
+    transform: translate(-6px, -19px) rotate(40deg);
+  }
+  66.00% {
+    border-radius: 0px 0px 48px 15px / 36px 0px 33px 48px;
+    transform: translate(-1px, -14px) rotate(35deg);
+    border-right: 2px solid var(--black);
+  }
+  83.00% {
+    border-radius: 0px 0px 77px 30px / 36px 0px 33px 48px;
+    transform: translate(-1px, 1px) rotate(0deg);
+  }
+}
+
+@keyframes foxBootPawFrontLeft {
+  0%,
+  100% {
+    width: 45px;
+    transform: translate(0px, 0px) rotate(-6deg);
+  }
+  8.00% {
+    width: 45px;
+    transform: translate(-2px, 1px) rotate(-1deg);
+  }
+  16.50% {
+    width: 45px;
+    transform: translate(0px, -2px) rotate(-22deg);
+  }
+  33.00% {
+    width: 40px;
+    border-radius: 15px 0px 163px 82px / 29px 46px 143px 123px;
+    border-right: 2px solid black;
+    transform: translate(24px, -14px) rotate(-59deg);
+    background: var(--orange);
+    box-shadow: inset 1px -15px 0 -7px var(--brown);
+  }
+  49.50% {
+    border-radius: 18px 40px 115px 163px / 29px 46px 160px 140px;
+    border-right: 2px solid black;
+    transform: translate(19px, 4px) rotate(-27deg) scaleY(1.2);
+    background: var(--orange);
+    box-shadow: inset -6px -15px 0 -9px var(--brown);
+  }
+  66.00% {
+    border-radius: 38px 0px 82px 163px / 29px 0px 73px 140px;
+    border-right: 2px solid black;
+    transform: translate(-1px, 13px) rotate(9deg) skew(1deg, -30deg)
+      scale(1.1, 1.3);
+    background: var(--orange);
+    box-shadow: inset 9px -14px 0 -11px var(--brown);
+  }
+  83.00% {
+    border-radius: 38px 0px 67px 143px / 28px 0px 45px 116px;
+    border-right: 2px solid black;
+    transform: translate(3px, -2px) rotate(0deg) skew(1deg, -27deg)
+      scale(1.2, 1);
+    background: radial-gradient(
+        ellipse at -13% 260%,
+        var(--brown) 68%,
+        var(--orange) 0%
+      )
+      0px 0px;
+    box-shadow: none;
+  }
+}
+
+@keyframes foxPawBackLeft {
+  0%,
+  100% {
+    width: 40px;
+    border-radius: 10px 0px 20px 20px / 26px 0px 20px 20px;
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  8.00% {
+    width: 47px;
+    border-radius: 0px 0px 30px 29px / 0px 0px 27px 67px;
+    border-right: 2px solid black;
+    transform: translate(0px, 3px) rotate(28deg);
+  }
+  16.50% {
+    border-radius: 0px 0px 45px 29px / 0px 0px 50px 67px;
+    border-right: 1px solid black;
+    transform: translate(5px, -1px) rotate(28deg);
+  }
+  33.00% {
+    transform: translate(8px, 4px) rotate(15deg);
+  }
+  49.50% {
+    transform: translate(12px, 27px) rotate(-32deg);
+  }
+  66.00% {
+    border-radius: 0px 0px 45px 61px / 0px 0px 50px 87px;
+    border-right: 1px solid black;
+    transform: translate(5px, 14px) rotate(-17deg);
+  }
+  83.00% {
+    border-radius: 0px 0px 49px 156px / 0px 0px 100px 179px;
+    border-right: none;
+    transform: translate(6px, -1px) rotate(15deg);
+  }
+}
+
+@keyframes foxBootPawBackLeft {
+  0%,
+  100% {
+    transform: translate(0px, 0px) rotate(-51deg);
+  }
+  8.00% {
+    box-shadow: inset 2px -2px 0px black;
+    transform: translate(6px, -1px) rotate(-51deg);
+  }
+  16.50% {
+    box-shadow: inset 2px -2px 0px black;
+    transform: translate(-2px, 7px) rotate(9deg) scaleX(1.05) scaleY(1.25);
+  }
+  33.00% {
+    background: radial-gradient(
+        circle at 45% 20%,
+        var(--orange) 58%,
+        var(--brown) 0%
+      )
+      0px 0px;
+    border-radius: 60px 2px 86px 40px / 88px 30px 77px 40px;
+    transform: translate(-11px, 12px) rotate(32deg) scaleX(1) scaleY(1);
+  }
+  49.50% {
+    background: radial-gradient(
+        circle at 24% 135%,
+        var(--brown) 45%,
+        var(--orange) 0%
+      )
+      0px 0px;
+    border-radius: 105px 9px 83px 40px / 84px 31px 77px 40px;
+    transform: translate(-6px, 8px) rotate(29deg) scaleX(1) scaleY(1);
+  }
+  66.00% {
+    box-shadow: inset 0px 0px 0px black;
+    border-radius: 105px 9px 83px 40px / 84px 31px 77px 40px;
+    transform: translate(12px, 9px) rotate(-113deg) scaleX(1.2) scaleY(1.2);
+    background: radial-gradient(
+        circle at 86% 38%,
+        var(--orange) 74%,
+        var(--brown) 0%
+      )
+      0px 0px;
+  }
+  83.00% {
+    box-shadow: inset 0px -1px 0px black;
+    border-radius: 80px 110px 100px 90px / 80px 100px 68px 100px;
+    transform: translate(4px, -4px) rotate(-142deg) scaleX(1) scaleY(1);
+    background: radial-gradient(
+        circle at 86% 38%,
+        var(--orange) 66%,
+        var(--brown) 0%
+      )
+      0px 0px;
+  }
+}
+
+@keyframes foxHead {
+  0%,
+  100% {
+    transform: skew(-24deg, -5deg);
+  }
+  8.00% {
+    transform: skew(-23deg, -5deg);
+  }
+  16.50% {
+    transform: skew(-20deg, -8deg);
+  }
+  33.00% {
+    background: linear-gradient(14deg, transparent 62%, var(--orange) 0%),
+      radial-gradient(
+          circle at 13% 95%,
+          var(--orange-light) 26%,
+          var(--orange) 25%,
+          var(--orange) 40%,
+          transparent 0%
+        )
+        18px -24px,
+      linear-gradient(-91deg, var(--orange) 46%, var(--orange-light) 0%);
+    transform: skew(-21deg, -8deg);
+  }
+  49.50% {
+    background: linear-gradient(14deg, transparent 61%, var(--orange) 0%),
+      radial-gradient(
+          circle at 14% 91%,
+          var(--orange-light) 22%,
+          var(--orange) 22%,
+          var(--orange) 40%,
+          transparent 0%
+        )
+        18px -24px,
+      linear-gradient(-91deg, var(--orange) 50%, var(--orange-light) 0%);
+    transform: skew(-26deg, -2deg) translate(0px, -3px);
+  }
+  66.00% {
+    transform: skew(-22deg, -5deg) translate(0px, -3px);
+  }
+  83.00% {
+    transform: skew(-24deg, -5deg) translate(0px, -1px);
+    background: linear-gradient(14deg, transparent 61%, var(--orange) 0%),
+      radial-gradient(
+          circle at 17% 94%,
+          var(--orange-light) 24%,
+          var(--orange) 19%,
+          var(--orange) 40%,
+          transparent 0%
+        )
+        18px -24px,
+      linear-gradient(-91deg, var(--orange) 45%, var(--orange-light) 0%);
+  }
+}
+@keyframes foxForehead {
+  0%,
+  100% {
+    width: 39px;
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  8.00% {
+    transform: translate(1px, 0px) rotate(2deg);
+  }
+  16.50% {
+    transform: translate(1px, 0px) rotate(2deg);
+  }
+  33.00% {
+  }
+  49.50% {
+    width: 30px;
+    transform: translate(6px, 1px) rotate(2deg);
+  }
+  66.00% {
+    transform: translate(4px, 1px) rotate(2deg);
+  }
+  83.00% {
+    width: 39px;
+    transform: translate(0px, 1px) rotate(1deg);
+  }
+}
+
+@keyframes foxEarsLeft {
+  0%,
+  100% {
+    background: linear-gradient(
+        -50deg,
+        var(--orange-light) 44%,
+        var(--orange) 44%,
+        var(--orange) 60%,
+        transparent 0%
+      ),
+      radial-gradient(
+          circle at 94% 60%,
+          transparent 42%,
+          var(--orange) 42%,
+          var(--orange) 69%,
+          var(--black) 69%,
+          var(--black) 70%,
+          var(--brown) 0%
+        )
+        0px -5px;
+    border-radius: 100% 154% 100% 100% / 107% 35% 100% 100%;
+    transform: skew(-13deg, 57deg) translate(0px, 0px) rotate(0deg);
+  }
+
+  8.00% {
+    background: linear-gradient(
+        -57deg,
+        var(--orange-light) 44%,
+        var(--orange) 44%,
+        var(--orange) 60%,
+        transparent 0%
+      ),
+      radial-gradient(
+          circle at 103% 56%,
+          transparent 36%,
+          var(--orange) 36%,
+          var(--orange) 74%,
+          var(--black) 71%,
+          var(--black) 71%,
+          var(--brown) 0%
+        )
+        0px -5px;
+    border-radius: 20px 154% 100% 100% / 60px 35% 100% 100%;
+    transform: skew(-13deg, 57deg) translate(-4px, -7px) rotate(10deg);
+  }
+
+  16.50% {
+    background: linear-gradient(
+        -68deg,
+        var(--orange-light) 45%,
+        var(--orange) 47%,
+        var(--orange) 79%,
+        transparent 0%
+      ),
+      radial-gradient(
+          circle at 104% 54%,
+          transparent 36%,
+          var(--orange) 36%,
+          var(--orange) 74%,
+          var(--black) 74%,
+          var(--black) 75%,
+          var(--brown) 0%
+        )
+        0px -5px;
+    border-radius: 20px 100% 100% 42% / 50px 100% 100% 100%;
+    transform: skew(-18deg, 62deg) translate(-5px, -11px) rotate(14deg);
+  }
+  33.00% {
+    background: linear-gradient(
+        -69deg,
+        var(--orange-light) 40%,
+        var(--orange) 40%,
+        var(--orange) 79%,
+        transparent 0%
+      ),
+      radial-gradient(
+          circle at 110% 55%,
+          transparent 36%,
+          var(--orange) 36%,
+          var(--orange) 74%,
+          var(--black) 74%,
+          var(--black) 75%,
+          var(--brown) 0%
+        )
+        0px -6px;
+    border-radius: 20px 100% 100% 42% / 50px 100% 100% 100%;
+    transform: skew(-6deg, 61deg) translate(-1px, -22px) rotate(14deg);
+  }
+  49.50% {
+    background: linear-gradient(
+        -70deg,
+        transparent 42%,
+        var(--orange) 40%,
+        var(--orange) 79%,
+        transparent 0%
+      ),
+      radial-gradient(
+          circle at 110% 55%,
+          transparent 36%,
+          var(--orange) 36%,
+          var(--orange) 74%,
+          var(--black) 74%,
+          var(--black) 75%,
+          var(--brown) 0%
+        )
+        0px -6px;
+    border-radius: 20px 100% 100% 42% / 50px 100% 100% 100%;
+    transform: skew(-12deg, 61deg) translate(1px, -22px) rotate(14deg);
+  }
+  66.00% {
+    transform: skew(-12deg, 63deg) translate(-1px, -22px) rotate(14deg);
+  }
+  83.00% {
+    background: linear-gradient(
+        -70deg,
+        transparent 42%,
+        var(--orange) 40%,
+        var(--orange) 79%,
+        transparent 0%
+      ),
+      radial-gradient(
+          circle at 118% 60%,
+          transparent 41%,
+          var(--orange) 36%,
+          var(--orange) 74%,
+          var(--black) 74%,
+          var(--black) 75%,
+          var(--brown) 0%
+        )
+        0px -6px;
+    border-radius: 45px 100% 100% 42% / 45px 100% 100% 100%;
+    transform: skew(-10deg, 61deg) translate(-3px, -17px) rotate(14deg);
+  }
+}
+
+@keyframes foxEarsRight {
+  0%,
+  100% {
+    width: 40px;
+    height: 51px;
+    background: linear-gradient(-11deg, var(--orange) 53%, transparent 0%),
+      radial-gradient(
+          circle at 82% 65%,
+          var(--orange) 74%,
+          var(--black) 74%,
+          var(--black) 75%,
+          var(--brown) 0%
+        )
+        0px -1px;
+    border-radius: 100% 154% 100% 0% / 100% 25% 100% 0%;
+    transform: skew(-13deg, 57deg) translate(0px, 0px) rotate(0deg);
+    box-shadow: inset 0px 4px 0 -3px var(--black),
+      inset 4px 0px 0 -3px var(--black);
+  }
+
+  8.00% {
+    background: linear-gradient(-11deg, var(--orange) 53%, transparent 0%),
+      radial-gradient(
+          circle at 92% 59%,
+          var(--orange) 75%,
+          var(--black) 75%,
+          var(--black) 76%,
+          var(--brown) 0%
+        )
+        0px -1px;
+    border-radius: 72% 152% 100% 0% / 134% 45% 100% 0%;
+    transform: skew(-11deg, 57deg) translate(0px, -10px) rotate(7deg);
+  }
+
+  16.50% {
+    width: 22px;
+    height: 76px;
+    background: linear-gradient(-68deg, var(--orange) 71%, transparent 0%),
+      radial-gradient(
+          ellipse at 48% 69%,
+          var(--orange) 64%,
+          black 68%,
+          black 65%,
+          var(--brown) 0%
+        )
+        0px -2px;
+    border-radius: 20px 182% 100% 10px / 102px 97% 100% 0%;
+    box-shadow: none;
+    transform: skew(-4deg, 58deg) translate(0px, -34px) rotate(19deg);
+  }
+  33.00% {
+    background: linear-gradient(-68deg, var(--orange) 71%, transparent 0%),
+      radial-gradient(
+          ellipse at 115% 118%,
+          var(--orange) 72%,
+          black 72%,
+          black 73%,
+          var(--brown) 0%
+        ) -5px -1px;
+    border-radius: 127px 0% 0% 0px / 159px 0% 0% 0%;
+    transform: skew(-0deg, 63deg) translate(-1px, -32px) rotate(12deg);
+  }
+  49.50% {
+    background: linear-gradient(-68deg, var(--orange) 71%, transparent 0%),
+      radial-gradient(
+          ellipse at 115% 118%,
+          var(--orange) 72%,
+          black 72%,
+          black 73%,
+          var(--brown) 0%
+        ) -5px -1px;
+    border-radius: 18px 0% 0% 0px / 127px 0% 0% 0%;
+    transform: skew(-5deg, 63deg) translate(-6px, -21px) rotate(12deg);
+    box-shadow: inset 1px 0px 0 0px var(--black);
+  }
+  66.00% {
+    transform: skew(-3deg, 64deg) translate(-6px, -24px) rotate(12deg);
+  }
+  83.00% {
+    background: linear-gradient(
+        -66deg,
+        transparent 34%,
+        var(--orange) 35%,
+        var(--orange) 70%,
+        transparent 0%
+      ),
+      radial-gradient(
+          ellipse at 80% 65%,
+          transparent 56%,
+          var(--orange) 56%,
+          var(--orange) 72%,
+          black 72%,
+          black 73%,
+          var(--brown) 0%
+        )
+        0px 0px;
+    border-radius: 18px 0% 0% 0px / 22px 0% 0% 0%;
+    transform: skew(-2deg, 62deg) translate(-2px, -26px) rotate(12deg);
+    box-shadow: inset 1px 0px 0 0px var(--black);
+  }
+}
+@keyframes foxInnerEarsRight {
+  0%,
+  100% {
+    background: radial-gradient(
+        circle at 145% 117%,
+        transparent 72%,
+        var(--orange-light) 0%
+      )
+      0px 0px;
+    transform: translate(0px, 0px) rotate(0deg) skew(0deg, 0deg);
+  }
+
+  8.00% {
+    transform: translate(1px, 3px) rotate(7deg) skew(0deg, 0deg);
+  }
+
+  16.50% {
+    transform: translate(-8px, 22px) rotate(41deg) skew(42deg, -1deg);
+  }
+  33.00% {
+    background: radial-gradient(
+        circle at 188% 108%,
+        transparent 82%,
+        var(--orange-light) 0%
+      )
+      0px 0px;
+    transform: translate(4px, 1px) rotate(26deg) skew(31deg, -48deg);
+  }
+  49.50% {
+    transform: translate(7px, -1px) rotate(33deg) skew(32deg, -50deg);
+  }
+  66.00% {
+    transform: translate(7px, 0px) rotate(35deg) skew(37deg, -50deg);
+  }
+  83.00% {
+  }
+}
+@keyframes foxEyes {
+  0%,
+  100% {
+    transform: translate(0px, 0px) skew(6deg, 22deg);
+  }
+  8.00% {
+    transform: translate(0px, -2px) skew(6deg, 22deg);
+  }
+  16.50% {
+    transform: translate(1px, -2px) skew(6deg, 22deg);
+  }
+  33.00% {
+    transform: translate(-3px, -2px) skew(7deg, 26deg);
+  }
+  49.50% {
+    transform: translate(-7px, -2px) skew(8deg, 23deg);
+  }
+  66.00% {
+    transform: translate(-6px, -1px) skew(8deg, 23deg);
+  }
+  83.00% {
+    transform: translate(0px, 1px) skew(10deg, 22deg);
+  }
+}
+
+@keyframes foxNose {
+  0%,
+  100% {
+    transform: translate(0px, 0px) skewX(27deg) rotate(17deg);
+  }
+  8.00% {
+    transform: translate(-3px, -5px) rotate(11deg) skewX(31deg);
+  }
+
+  16.50% {
+    transform: translate(0px, -3px) rotate(12deg) skewX(31deg);
+  }
+  33.00% {
+    transform: translate(-2px, 1px) rotate(16deg) skewX(20deg) skewY(5deg);
+  }
+  49.50% {
+    transform: translate(-12px, -4px) rotate(4deg) skewX(21deg) skewY(7deg)
+      scaleX(0.9);
+  }
+  66.00% {
+    transform: translate(-10px, -3px) rotate(8deg) skewX(21deg) skewY(7deg)
+      scaleX(0.9);
+  }
+  83.00% {
+    transform: translate(-6px, -2px) rotate(8deg) skewX(21deg) skewY(7deg)
+      scaleX(0.9);
+  }
+}
+
+@keyframes foxMouth {
+  0%,
+  100% {
+  }
+  8.00% {
+  }
+
+  16.50% {
+  }
+  33.00% {
+  }
+  49.50% {
+    transform: translate(-7px, 0px);
+  }
+  66.00% {
+  }
+  83.00% {
+    transform: translate(0px, 1px);
+  }
 }
