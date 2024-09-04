@@ -1,60 +1,76 @@
 @keyframes fox {
   0%,
   100% {
-    transform: translate(0px, 0px) rotate(6deg);
+    transform: translate(0, 0) rotate(6deg);
   }
+
   10% {
     transform: translate(-2px, -4px) rotate(5deg);
   }
+
   20% {
     transform: translate(-2px, -6px) rotate(5deg);
   }
+
   30% {
     transform: translate(-2px, -6px) rotate(1deg);
   }
+
   40% {
-    transform: translate(0px, -3px) rotate(5deg);
+    transform: translate(0, -3px) rotate(5deg);
   }
+
   60% {
     transform: translate(-1px, -3px) rotate(3deg);
   }
+
   70% {
     transform: translate(-2px, -8px) rotate(3deg);
   }
+
   80% {
-    transform: translate(0px, -6px) rotate(1deg);
+    transform: translate(0, -6px) rotate(1deg);
   }
+
   90% {
-    transform: translate(0px, -2px) rotate(4deg);
+    transform: translate(0, -2px) rotate(4deg);
   }
 }
 
 @keyframes foxBack {
   0%,
   100% {
-    transform: translate(0px, 0px) skew(-10deg, -6deg) scale(1);
+    transform: translate(0, 0) skew(-10deg, -6deg) scale(1);
   }
+
   10% {
     transform: translate(2px, -1px) skew(-13deg, -6deg) scale(1);
   }
+
   20% {
     transform: translate(1px, -1px) skew(-10deg, -6deg) scale(1);
   }
+
   30% {
-    transform: translate(0px, 0px) skew(-10deg, -6deg) scale(1);
+    transform: translate(0, 0) skew(-10deg, -6deg) scale(1);
   }
+
   40% {
     transform: translate(-1px, -1px) skew(-10deg, -6deg) scale(1);
   }
+
   60% {
     transform: translate(-3px, -2px) skew(-16deg, -1deg) scale(1.04);
   }
+
   70% {
     transform: translate(-3px, -2px) skew(-16deg, -1deg) scale(1.04);
   }
+
   80% {
     transform: translate(-3px, -2px) skew(-16deg, -1deg) scale(1.04);
   }
+
   90% {
     transform: translate(-1px, -4px) skew(-12deg, -2deg) scale(1);
   }
@@ -63,32 +79,41 @@
 @keyframes foxPawFrontRight {
   0%,
   100% {
-    transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
   }
+
   10% {
-    transform: translate(10px, 0px) rotate(24deg);
+    transform: translate(10px, 0) rotate(24deg);
   }
+
   20% {
     transform: translate(25px, -1px) rotate(42deg);
   }
+
   30% {
     transform: translate(23px, -2px) rotate(35deg);
   }
+
   40% {
     transform: translate(23px, 4px) rotate(27deg);
   }
+
   50% {
     transform: translate(23px, -1px) rotate(10deg);
   }
+
   60% {
     transform: translate(23px, 7px) rotate(-19deg);
   }
+
   70% {
     transform: translate(26px, 10px) rotate(-22deg);
   }
+
   80% {
     transform: translate(18px, 4px) rotate(-22deg);
   }
+
   90% {
     transform: translate(1px, -9px) rotate(-22deg);
   }
@@ -97,29 +122,37 @@
 @keyframes foxBootPawFrontRight {
   0%,
   100% {
-    transform: translate(0px, 0px) rotate(-40deg);
+    transform: translate(0, 0) rotate(-40deg);
   }
+
   10% {
     transform: translate(1px, 3px) rotate(-23deg);
   }
+
   20% {
-    transform: translate(0px, 15px) rotate(-5deg);
+    transform: translate(0, 15px) rotate(-5deg);
   }
+
   30% {
     transform: translate(-3px, 19px) rotate(45deg);
   }
+
   40% {
     transform: translate(-3px, 15px) rotate(24deg);
   }
+
   60% {
     transform: translate(-3px, 15px) rotate(34deg);
   }
+
   70% {
     transform: translate(-3px, 15px) rotate(26deg);
   }
+
   80% {
     transform: translate(-6px, 11px) rotate(-24deg);
   }
+
   90% {
     transform: translate(-6px, 11px) rotate(-24deg);
   }
@@ -130,27 +163,35 @@
   100% {
     transform: translate(-5px, -1px) rotate(-11deg);
   }
+
   10% {
     transform: translate(-5px, 8px) rotate(-30deg);
   }
+
   20% {
     transform: translate(-7px, 12px) rotate(-37deg);
   }
+
   30% {
     transform: translate(-26px, 34px) rotate(-60deg);
   }
+
   40% {
     transform: translate(-35px, 17px) rotate(-53deg);
   }
+
   60% {
     transform: translate(-24px, -17px) rotate(7deg);
   }
+
   70% {
     transform: translate(-11px, -11px) rotate(29deg);
   }
+
   80% {
     transform: translate(-11px, -11px) rotate(29deg);
   }
+
   90% {
     transform: translate(-11px, -13px) rotate(20deg);
   }
@@ -159,370 +200,418 @@
 @keyframes foxBootPawBackRight {
   0%,
   100% {
+    transform: translate(0, 21px) rotate(4deg) scale(1);
     background: radial-gradient(
         ellipse at 17% 95%,
         var(--brown) 35%,
         var(--orange) 0%
       )
-      0px 0px;
+      0 0;
     border-radius: 80px 10px 100px 60px / 100px 10px 90px 20px;
-    transform: translate(0px, 21px) rotate(4deg) scale(1);
   }
+
   10% {
+    transform: translate(-1px, 24px) rotate(10deg) scale(1);
     background: radial-gradient(
         ellipse at 6% 94%,
         var(--brown) 38%,
         var(--orange) 0%
       )
-      0px 0px;
+      0 0;
     border-radius: 80px 10px 100px 60px / 100px 10px 90px 20px;
-    transform: translate(-1px, 24px) rotate(10deg) scale(1);
   }
+
   20% {
+    transform: translate(-1px, 24px) rotate(10deg) scale(1);
     background: radial-gradient(
         ellipse at 17% 152%,
         var(--brown) 47%,
         var(--orange) 0%
       )
-      0px 0px;
+      0 0;
     border-radius: 80px 10px 100px 60px / 100px 10px 90px 20px;
-    transform: translate(-1px, 24px) rotate(10deg) scale(1);
   }
+
   30% {
-    background: radial-gradient(
-        ellipse at 56% -155%,
-        var(--orange) 82%,
-        var(--brown) 0%
-      )
-      0px 0px;
-    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
     transform: translate(5px, 13px) rotate(-80deg) scale(1.45);
-  }
-  40% {
     background: radial-gradient(
         ellipse at 56% -155%,
         var(--orange) 82%,
         var(--brown) 0%
       )
-      0px 0px;
+      0 0;
     border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
-    transform: translate(3px, 11px) rotate(-86deg) scale(1.45);
   }
+
+  40% {
+    transform: translate(3px, 11px) rotate(-86deg) scale(1.45);
+    background: radial-gradient(
+        ellipse at 56% -155%,
+        var(--orange) 82%,
+        var(--brown) 0%
+      )
+      0 0;
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+  }
+
   60% {
+    transform: translate(1px, 13px) rotate(-85deg) scale(1.45);
     background: radial-gradient(
         ellipse at 87% -162%,
         var(--orange) 82%,
         var(--brown) 0%
       )
-      0px 0px;
+      0 0;
     border-radius: 90px 20px 20px 60px / 60px 20px 20px 60px;
-    transform: translate(1px, 13px) rotate(-85deg) scale(1.45);
   }
-  70.00% {
+
+  70% {
+    transform: translate(6px, 15px) rotate(-61deg) scale(1.45);
     background: radial-gradient(
         ellipse at 87% -246%,
         var(--orange) 82%,
         var(--brown) 0%
       )
-      0px 0px;
+      0 0;
     border-radius: 90px 20px 120px 80px / 60px 20px 90px 60px;
-    transform: translate(6px, 15px) rotate(-61deg) scale(1.45);
   }
+
   80%,
   90% {
+    transform: translate(9px, 18px) rotate(-48deg) scale(1.45);
     background: radial-gradient(
         ellipse at 76% -284%,
         var(--orange) 82%,
         var(--brown) 0%
       )
-      0px 0px;
+      0 0;
     border-radius: 60px 20px 120px 90px / 60px 20px 90px 60px;
-    transform: translate(9px, 18px) rotate(-48deg) scale(1.45);
   }
 }
 
 @keyframes foxTail {
   0%,
   100% {
-    border-radius: 132px 0px 100% 0% / 44px 0px 100% 0%;
-    transform: translate(0px, 0px) rotate(-11deg);
+    transform: translate(0, 0) rotate(-11deg);
+    border-radius: 132px 0 100% 0% / 44px 0 100% 0%;
   }
+
   10% {
-    border-radius: 132px 0px 91% 0% / 44px 0px 100% 0%;
     transform: translate(-15px, -4px) rotate(0deg);
+    border-radius: 132px 0 91% 0% / 44px 0 100% 0%;
   }
+
   20% {
-    border-radius: 132px 0px 77% 0% / 44px 0px 100% 0%;
     transform: translate(-27px, -14px) rotate(7deg);
+    border-radius: 132px 0 77% 0% / 44px 0 100% 0%;
   }
+
   30% {
-    border-radius: 132px 0px 64% 0% / 44px 0px 116% 0%;
     transform: translate(-32px, -20px) rotate(12deg);
+    border-radius: 132px 0 64% 0% / 44px 0 116% 0%;
   }
+
   40% {
-    border-radius: 132px 0px 62% 0% / 44px 0px 116% 0%;
     transform: translate(-30px, -19px) rotate(8deg);
+    border-radius: 132px 0 62% 0% / 44px 0 116% 0%;
   }
+
   60% {
-    border-radius: 132px 0px 72% 47% / 44px 0px 116% 13%;
     transform: translate(-7px, -2px) rotate(-12deg);
+    border-radius: 132px 0 72% 47% / 44px 0 116% 13%;
   }
+
   70% {
     transform: translate(11px, 2px) rotate(-23deg);
-    border-radius: 132px 0px 130% 47% / 44px 0px 165% 13%;
+    border-radius: 132px 0 130% 47% / 44px 0 165% 13%;
   }
+
   80% {
     transform: translate(18px, -1px) rotate(-27deg);
-    border-radius: 132px 0px 100% 0% / 44px 0px 100% 0%;
+    border-radius: 132px 0 100% 0% / 44px 0 100% 0%;
   }
+
   90% {
-    transform: translate(17px, 0px) rotate(-25deg);
-    border-radius: 132px 0px 100% 0% / 44px 0px 100% 0%;
+    transform: translate(17px, 0) rotate(-25deg);
+    border-radius: 132px 0 100% 0% / 44px 0 100% 0%;
   }
 }
 
 @keyframes foxPawFrontLeft {
   0%,
   100% {
-    border-radius: 22px 0px 20px 0px;
-    transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
+    border-radius: 22px 0 20px;
   }
+
   10% {
-    border-radius: 0px 0px 40px 80px / 0px 0px 80px 120px;
     transform: translate(1px, 4px) rotate(-13deg);
+    border-radius: 0 0 40px 80px / 0 0 80px 120px;
   }
+
   20% {
-    border-radius: 0px 0px 40px 80px / 0px 0px 80px 120px;
-    transform: translate(0px, 3px) rotate(-13deg);
+    transform: translate(0, 3px) rotate(-13deg);
+    border-radius: 0 0 40px 80px / 0 0 80px 120px;
   }
+
   30% {
-    border-radius: 8px 0px 22px 55px / 36px 0px 22px 96px;
-    border-right: 2px solid transparent;
     transform: translate(-7px, -5px) rotate(-3deg);
-  }
-  40% {
-    border-radius: 8px 0px 22px 59px / 36px 0px 22px 80px;
     border-right: 2px solid transparent;
+    border-radius: 8px 0 22px 55px / 36px 0 22px 96px;
+  }
+
+  40% {
     transform: translate(-9px, -10px) rotate(7deg);
+    border-right: 2px solid transparent;
+    border-radius: 8px 0 22px 59px / 36px 0 22px 80px;
   }
+
   60% {
-    border-right: 2px solid var(--black);
-    border-radius: 0px 0px 22px 20px / 0px 0px 22px 60px;
     transform: translate(-4px, -20px) rotate(44deg);
+    border-right: 2px solid var(--black);
+    border-radius: 0 0 22px 20px / 0 0 22px 60px;
   }
+
   70% {
-    border-right: 2px solid var(--black);
-    border-radius: 0px 0px 10px 10px / 0px 0px 22px 35px;
     transform: translate(-4px, -13px) rotate(39deg);
-  }
-  80% {
     border-right: 2px solid var(--black);
-    border-radius: 0px 0px 10px 10px / 0px 0px 22px 35px;
-    transform: translate(-4px, -13px) rotate(36deg);
+    border-radius: 0 0 10px 10px / 0 0 22px 35px;
   }
+
+  80% {
+    transform: translate(-4px, -13px) rotate(36deg);
+    border-right: 2px solid var(--black);
+    border-radius: 0 0 10px 10px / 0 0 22px 35px;
+  }
+
   90% {
     transform: translate(-2px, -11px) rotate(28deg);
     border-right: 2px solid var(--black);
-    border-radius: 0px 0px 10px 10px / 0px 0px 22px 35px;
+    border-radius: 0 0 10px 10px / 0 0 22px 35px;
   }
 }
 
 @keyframes foxBootPawFrontLeft {
   0%,
   100% {
+    transform: translate(0, 0) rotate(-6deg);
     background: radial-gradient(
         ellipse at 15% 136%,
         var(--brown) 50%,
         var(--orange) 0%
       )
-      0px 0px;
-    transform: translate(0px, 0px) rotate(-6deg);
+      0 0;
   }
+
   10% {
     transform: translate(2px, 3px) rotate(2deg);
   }
+
   20% {
+    transform: translate(8px, 3px) rotate(-12deg);
     background: radial-gradient(
         ellipse at 15% 138%,
         var(--brown) 50%,
         var(--orange) 0%
       )
-      0px 0px;
-    border-radius: 40px 0px 40px 25px / 25px 0px 40px 5px;
-    transform: translate(8px, 3px) rotate(-12deg);
+      0 0;
+    border-radius: 40px 0 40px 25px / 25px 0 40px 5px;
   }
+
   30% {
+    transform: translate(26px, -4px) rotate(-51deg);
     background: radial-gradient(
         ellipse at 750% 30%,
         var(--orange) 78%,
         var(--brown) 0%
       )
-      0px 0px;
-    border-radius: 15px 0px 163px 82px / 29px 46px 143px 123px;
-    border-right: 2px solid black;
-    transform: translate(26px, -4px) rotate(-51deg);
+      0 0;
+    border-right: 2px solid var(--black);
+    border-radius: 15px 0 163px 82px / 29px 46px 143px 123px;
   }
+
   40% {
+    transform: translate(27px, -10px) rotate(-60deg);
     background: radial-gradient(
         ellipse at -250% -40%,
         var(--orange) 79%,
         var(--brown) 0%
       )
-      0px 0px;
-    border-radius: 15px 0px 180px 80px / 30px 0px 180px 130px;
-    border-right: 2px solid black;
-    transform: translate(27px, -10px) rotate(-60deg);
+      0 0;
+    border-right: 2px solid var(--black);
+    border-radius: 15px 0 180px 80px / 30px 0 180px 130px;
   }
+
   60% {
+    transform: translate(24px, -1px) rotate(-46deg);
     background: radial-gradient(
         ellipse at -250% -20%,
         var(--orange) 79%,
         var(--brown) 0%
       )
-      0px 0px;
+      0 0;
+    border-right: 2px solid var(--black);
     border-radius: 15px 60px 260px 100px / 40px 60px 200px 220px;
-    border-right: 2px solid black;
-    transform: translate(24px, -1px) rotate(-46deg);
   }
+
   70% {
+    transform: translate(-1px, 15px) rotate(11deg);
     background: radial-gradient(
         ellipse at -280% -10%,
         var(--orange) 74%,
         var(--brown) 0%
       )
-      0px 0px;
+      0 0;
+    border-right: 2px solid var(--black);
     border-radius: 15px 20px 260px 140px / 40px 40px 220px 220px;
-    border-right: 2px solid black;
-    transform: translate(-1px, 15px) rotate(11deg);
   }
+
   80% {
-    background: radial-gradient(
-        ellipse at -300% 20%,
-        var(--orange) 73%,
-        var(--brown) 0%
-      )
-      0px 0px;
-    border-radius: 140px 60px 320px 140px / 170px 80px 270px 240px;
-    border-right: 2px solid black;
     transform: translate(-11px, 14px) rotate(35deg) scaleY(1.2);
-  }
-  90% {
     background: radial-gradient(
         ellipse at -300% 20%,
         var(--orange) 73%,
         var(--brown) 0%
       )
-      0px 0px;
-    border-radius: 160px 60px 360px 200px / 180px 80px 270px 240px;
-    border-right: 2px solid black;
+      0 0;
+    border-right: 2px solid var(--black);
+    border-radius: 140px 60px 320px 140px / 170px 80px 270px 240px;
+  }
+
+  90% {
     transform: translate(-12px, 15px) rotate(35deg) scaleY(1.2);
+    background: radial-gradient(
+        ellipse at -300% 20%,
+        var(--orange) 73%,
+        var(--brown) 0%
+      )
+      0 0;
+    border-right: 2px solid var(--black);
+    border-radius: 160px 60px 360px 200px / 180px 80px 270px 240px;
   }
 }
 
 @keyframes foxPawBackLeft {
   0%,
   100% {
-    border-radius: 10px 0px 20px 20px / 26px 0px 20px 20px;
+    transform: translate(0, 0) rotate(0deg);
     border-right: 2px solid transparent;
-    transform: translate(0px, 0px) rotate(0deg);
+    border-radius: 10px 0 20px 20px / 26px 0 20px 20px;
   }
+
   10% {
-    border-radius: 0px 0px 40px 80px / 0px 0px 80px 100px;
-    border-right: 2px solid var(--black);
     transform: translate(8px, 3px) rotate(27deg);
+    border-right: 2px solid var(--black);
+    border-radius: 0 0 40px 80px / 0 0 80px 100px;
   }
+
   20% {
-    border-radius: 0px 0px 40px 80px / 0px 0px 80px 60px;
-    border-right: 2px solid var(--black);
     transform: translate(7px, 2px) rotate(23deg);
+    border-right: 2px solid var(--black);
+    border-radius: 0 0 40px 80px / 0 0 80px 60px;
   }
+
   30% {
-    border-radius: 0px 0px 40px 80px / 0px 0px 80px 60px;
-    border-right: 2px solid var(--black);
     transform: translate(8px, 5px) rotate(19deg);
+    border-right: 2px solid var(--black);
+    border-radius: 0 0 40px 80px / 0 0 80px 60px;
   }
+
   40% {
-    border-radius: 0px 0px 40px 80px / 0px 0px 80px 60px;
-    border-right: 2px solid var(--black);
     transform: translate(8px, 6px) rotate(10deg);
+    border-right: 2px solid var(--black);
+    border-radius: 0 0 40px 80px / 0 0 80px 60px;
   }
+
   60% {
-    border-radius: 0px 0px 40px 80px / 0px 0px 80px 60px;
-    border-right: 2px solid var(--black);
     transform: translate(16px, 26px) rotate(-35deg);
-  }
-  70% {
-    border-radius: 0px 0px 40px 80px / 0px 0px 80px 70px;
     border-right: 2px solid var(--black);
+    border-radius: 0 0 40px 80px / 0 0 80px 60px;
+  }
+
+  70% {
     transform: translate(14px, 26px) rotate(-34deg);
+    border-right: 2px solid var(--black);
+    border-radius: 0 0 40px 80px / 0 0 80px 70px;
   }
+
   80% {
-    border-radius: 15px 0px 40px 70px / 60px 0px 80px 80px;
-    border-right: 2px solid transparent;
     transform: translate(2px, 15px) rotate(-19deg);
-  }
-  90% {
-    border-radius: 15px 0px 40px 70px / 60px 0px 80px 80px;
     border-right: 2px solid transparent;
+    border-radius: 15px 0 40px 70px / 60px 0 80px 80px;
+  }
+
+  90% {
     transform: translate(2px, 8px) rotate(-14deg);
+    border-right: 2px solid transparent;
+    border-radius: 15px 0 40px 70px / 60px 0 80px 80px;
   }
 }
 
 @keyframes foxBootPawBackLeft {
   0%,
   100% {
+    transform: translate(0, 0) rotate(-63deg);
     background: linear-gradient(194deg, var(--orange) 71%, var(--brown) 0%);
-    border-radius: 20px 20px 28px 14px / 20px 20px 23px 17px;
-    transform: translate(0px, 0px) rotate(-63deg);
     border-left: none;
+    border-radius: 20px 20px 28px 14px / 20px 20px 23px 17px;
   }
+
   10% {
+    transform: translate(0, -1px) rotate(-72deg);
     background: linear-gradient(204deg, var(--orange) 71%, var(--brown) 0%);
     border-radius: 40px 20px 35px 14px / 40px 20px 23px 17px;
-    transform: translate(0px, -1px) rotate(-72deg);
   }
+
   20% {
+    transform: translate(-12px, 9px) rotate(-11deg);
     background: linear-gradient(202deg, var(--orange) 64%, var(--brown) 0%);
     border-radius: 40px 20px 35px 14px / 40px 20px 23px 17px;
-    box-shadow: inset 3px -2px 0px black;
-    transform: translate(-12px, 9px) rotate(-11deg);
+    box-shadow: inset 3px -2px 0 var(--black);
   }
+
   30% {
-    background: linear-gradient(188deg, var(--orange) 70%, var(--brown) 0%);
-    border-radius: 40px 0px 40px 15px / 40px 0px 40px 15px;
-    box-shadow: inset 2px -2px 0px black;
     transform: translate(-15px, 13px) rotate(34deg);
+    background: linear-gradient(188deg, var(--orange) 70%, var(--brown) 0%);
+    border-radius: 40px 0 40px 15px / 40px 0 40px 15px;
+    box-shadow: inset 2px -2px 0 var(--black);
   }
+
   40% {
-    background: linear-gradient(178deg, var(--orange) 77%, var(--brown) 0%);
-    border-radius: 40px 0px 40px 15px / 40px 0px 40px 15px;
-    box-shadow: inset 2px -1px 0px black;
     transform: translate(-14px, 11px) rotate(34deg);
+    background: linear-gradient(178deg, var(--orange) 77%, var(--brown) 0%);
+    border-radius: 40px 0 40px 15px / 40px 0 40px 15px;
+    box-shadow: inset 2px -1px 0 var(--black);
   }
+
   60% {
+    transform: translate(-11px, 8px) rotate(37deg);
     background: linear-gradient(191deg, var(--orange) 69%, var(--brown) 0%);
     border-radius: 40px 15px 40px 15px / 40px 15px 40px 15px;
-    box-shadow: inset 1px -1px 0px black;
-    transform: translate(-11px, 8px) rotate(37deg);
+    box-shadow: inset 1px -1px 0 var(--black);
   }
+
   70% {
+    transform: translate(-5px, 13px) rotate(17deg);
     background: linear-gradient(191deg, var(--orange) 69%, var(--brown) 0%);
     border-radius: 40px 15px 40px 15px / 40px 20px 40px 15px;
-    box-shadow: inset 1px -1px 0px black;
-    transform: translate(-5px, 13px) rotate(17deg);
+    box-shadow: inset 1px -1px 0 var(--black);
   }
+
   80% {
+    transform: translate(10px, 11px) rotate(-71deg) scaleY(1.3);
     background: linear-gradient(205deg, var(--orange) 78%, var(--brown) 0%);
     border-radius: 40px 22px 40px 20px / 40px 20px 40px 20px;
-    box-shadow: inset 1px -1px 0px black;
-    transform: translate(10px, 11px) rotate(-71deg) scaleY(1.3);
+    box-shadow: inset 1px -1px 0 var(--black);
   }
+
   90% {
-    background: linear-gradient(183deg, var(--orange) 78%, var(--brown) 0%);
-    border-radius: 14px 22px 40px 20px / 42px 20px 40px 20px;
-    box-shadow: inset -1px -2px 0px black;
     transform: translate(9px, 6px) rotate(-60deg) scaleY(1);
+
+    background: linear-gradient(183deg, var(--orange) 78%, var(--brown) 0%);
     border-left: 2px solid var(--black);
+    border-radius: 14px 22px 40px 20px / 42px 20px 40px 20px;
+    box-shadow: inset -1px -2px 0 var(--black);
   }
 }
 
@@ -540,7 +629,9 @@
         16px -27px,
       linear-gradient(-91deg, var(--orange) 43%, var(--orange-light) 0%);
   }
+
   10% {
+    transform: skew(-24deg, -5deg) translate(1px, -1px) rotate(1deg);
     background: linear-gradient(13deg, transparent 62%, var(--orange) 0%),
       radial-gradient(
           circle at 15% 100%,
@@ -552,9 +643,15 @@
         16px -27px,
       linear-gradient(-91deg, var(--orange) 43%, var(--orange-light) 0%);
     border-radius: 10% 56% 0% 0% / 36% 100% 0% 0%;
-    transform: skew(-24deg, -5deg) translate(1px, -1px) rotate(1deg);
   }
+
+  20%,
+  90% {
+    border-radius: 10% 56% 0% 2% / 36% 100% 0% 10%;
+  }
+
   20% {
+    transform: skew(-24deg, -5deg) translate(-1px, -3px) rotate(1deg);
     background: linear-gradient(12deg, transparent 62%, var(--orange) 0%),
       radial-gradient(
           circle at 15% 100%,
@@ -565,10 +662,10 @@
         )
         16px -27px,
       linear-gradient(-91deg, var(--orange) 44%, var(--orange-light) 0%);
-    border-radius: 10% 56% 0% 2% / 36% 100% 0% 10%;
-    transform: skew(-24deg, -5deg) translate(-1px, -3px) rotate(1deg);
   }
+
   30% {
+    transform: skew(-25deg, -5deg) translate(-1px, -5px) rotate(1deg);
     background: linear-gradient(13deg, transparent 62%, var(--orange) 0%),
       radial-gradient(
           circle at 15% 100%,
@@ -579,10 +676,10 @@
         )
         16px -27px,
       linear-gradient(-91deg, var(--orange) 44%, var(--orange-light) 0%);
-    border-radius: 10% 56% 0% 2% / 36% 100% 0% 10%;
-    transform: skew(-25deg, -5deg) translate(-1px, -5px) rotate(1deg);
   }
+
   40% {
+    transform: skew(-23deg, -5deg) translate(-1px, -1px) rotate(1deg);
     background: linear-gradient(13deg, transparent 62%, var(--orange) 0%),
       radial-gradient(
           circle at 15% 100%,
@@ -593,37 +690,24 @@
         )
         16px -27px,
       linear-gradient(-90deg, var(--orange) 45%, var(--orange-light) 0%);
-    border-radius: 10% 56% 0% 2% / 36% 100% 0% 10%;
-    transform: skew(-23deg, -5deg) translate(-1px, -1px) rotate(1deg);
   }
+
   60% {
-    background: linear-gradient(13deg, transparent 62%, var(--orange) 0%),
-      radial-gradient(
-          circle at 13% 97%,
-          var(--orange-light) 24%,
-          var(--orange) 24%,
-          var(--orange) 40%,
-          transparent 0%
-        )
-        16px -27px,
-      linear-gradient(-90deg, var(--orange) 49%, var(--orange-light) 0%);
-    border-radius: 10% 56% 0% 2% / 36% 100% 0% 10%;
     transform: skew(-26deg, -3deg) translate(-1px, -4px) rotate(1deg);
+    background: linear-gradient(13deg, transparent 62%, var(--orange) 0%),
+      radial-gradient(
+          circle at 13% 97%,
+          var(--orange-light) 24%,
+          var(--orange) 24%,
+          var(--orange) 40%,
+          transparent 0%
+        )
+        16px -27px,
+      linear-gradient(-90deg, var(--orange) 49%, var(--orange-light) 0%);
   }
+
   70% {
-    background: linear-gradient(13deg, transparent 62%, var(--orange) 0%),
-      radial-gradient(
-          circle at 13% 97%,
-          var(--orange-light) 24%,
-          var(--orange) 24%,
-          var(--orange) 40%,
-          transparent 0%
-        )
-        16px -27px,
-      linear-gradient(-90deg, var(--orange) 49%, var(--orange-light) 0%);
     transform: skew(-26deg, -3deg) translate(-1px, -3px) rotate(1deg);
-  }
-  80% {
     background: linear-gradient(13deg, transparent 62%, var(--orange) 0%),
       radial-gradient(
           circle at 13% 97%,
@@ -634,9 +718,24 @@
         )
         16px -27px,
       linear-gradient(-90deg, var(--orange) 49%, var(--orange-light) 0%);
-    transform: skew(-24deg, -3deg) translate(-1px, -5px) rotate(1deg);
   }
+
+  80% {
+    transform: skew(-24deg, -3deg) translate(-1px, -5px) rotate(1deg);
+    background: linear-gradient(13deg, transparent 62%, var(--orange) 0%),
+      radial-gradient(
+          circle at 13% 97%,
+          var(--orange-light) 24%,
+          var(--orange) 24%,
+          var(--orange) 40%,
+          transparent 0%
+        )
+        16px -27px,
+      linear-gradient(-90deg, var(--orange) 49%, var(--orange-light) 0%);
+  }
+
   90% {
+    transform: skew(-24deg, -3deg) translate(-1px, -5px) rotate(1deg);
     background: linear-gradient(13deg, transparent 62%, var(--orange) 0%),
       radial-gradient(
           circle at 15% 96%,
@@ -647,44 +746,52 @@
         )
         16px -27px,
       linear-gradient(-91deg, var(--orange) 48%, var(--orange-light) 0%);
-    border-radius: 10% 56% 0% 2% / 36% 100% 0% 10%;
-    transform: skew(-24deg, -3deg) translate(-1px, -5px) rotate(1deg);
   }
 }
+
 @keyframes foxForehead {
   0%,
   100% {
-    transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
   }
+
   10% {
-    transform: translate(0px, 1px) rotate(2deg);
+    transform: translate(0, 1px) rotate(2deg);
   }
+
   20% {
-    transform: translate(-1px, 0px) rotate(0deg);
+    transform: translate(-1px, 0) rotate(0deg);
   }
+
   30% {
-    transform: translate(0px, 1px) rotate(2deg);
+    transform: translate(0, 1px) rotate(2deg);
   }
+
   40% {
-    transform: translate(0px, 1px) rotate(2deg);
+    transform: translate(0, 1px) rotate(2deg);
   }
+
   60% {
-    transform: translate(0px, 0px) rotate(-1deg);
+    transform: translate(0, 0) rotate(-1deg);
   }
+
   70% {
-    transform: translate(0px, 0px) rotate(-1deg);
+    transform: translate(0, 0) rotate(-1deg);
   }
+
   80% {
-    transform: translate(1px, 0px) rotate(0deg);
+    transform: translate(1px, 0) rotate(0deg);
   }
+
   90% {
-    transform: translate(1px, 0px) rotate(0deg);
+    transform: translate(1px, 0) rotate(0deg);
   }
 }
 
 @keyframes foxEarsLeft {
   0%,
   100% {
+    transform: translate(0, 0) rotate(0deg) skew(-13deg, 57deg);
     background: radial-gradient(
         circle at 99% 53%,
         transparent 42%,
@@ -694,9 +801,8 @@
         var(--black) 78%,
         var(--brown) 0%
       )
-      0px 0px;
+      0 0;
     border-radius: 100% 154% 100% 100% / 107% 35% 100% 100%;
-    transform: translate(0px, 0px) rotate(0deg) skew(-13deg, 57deg);
   }
 
   10%,
@@ -710,30 +816,38 @@
         var(--black) 82%,
         var(--brown) 0%
       )
-      0px 0px;
+      0 0;
     border-radius: 20px 154% 100% 100% / 60px 35% 100% 100%;
   }
+
   10% {
     transform: translate(-8px, 3px) rotate(10deg) skew(-20deg, 51deg);
   }
+
   20% {
     transform: translate(-9px, 4px) rotate(10deg) skew(-20deg, 51deg);
   }
+
   30% {
     transform: translate(-7px, 5px) rotate(6deg) skew(-20deg, 51deg);
   }
+
   40% {
-    transform: translate(0px, 6px) rotate(-4deg) skew(-14deg, 51deg);
+    transform: translate(0, 6px) rotate(-4deg) skew(-14deg, 51deg);
   }
+
   60% {
     transform: translate(-7px, 6px) rotate(5deg) skew(-21deg, 51deg);
   }
+
   70% {
     transform: translate(-4px, 6px) rotate(8deg) skew(-21deg, 51deg);
   }
+
   80% {
     transform: translate(-4px, 6px) rotate(2deg) skew(-21deg, 51deg);
   }
+
   90% {
     transform: translate(2px, 7px) rotate(-4deg) skew(-12deg, 51deg);
   }
@@ -742,6 +856,7 @@
 @keyframes foxEarsRight {
   0%,
   100% {
+    transform: translate(0, 0) rotate(0deg) skew(-13deg, 57deg);
     background: radial-gradient(
         circle at 83% 69%,
         transparent 51%,
@@ -751,12 +866,12 @@
         var(--black) 77%,
         var(--brown) 0%
       )
-      0px 0px;
+      0 0;
     border-radius: 100% 154% 100% 0% / 100% 25% 100% 0%;
-    transform: translate(0px, 0px) rotate(0deg) skew(-13deg, 57deg);
-    box-shadow: inset 0px 4px 0 -3px var(--black),
-      inset 4px 0px 0 -3px var(--black);
+    box-shadow: inset 0 4px 0 -3px var(--black),
+      inset 4px 0 0 -3px var(--black);
   }
+
   10%,
   90% {
     background: radial-gradient(
@@ -768,30 +883,38 @@
         var(--black) 79%,
         var(--brown) 0%
       )
-      0px 0px;
+      0 0;
     border-radius: 72% 152% 100% 0% / 134% 45% 100% 0%;
   }
+
   10% {
     transform: translate(2px, 1px) rotate(2deg) skew(-18deg, 57deg);
   }
+
   20% {
-    transform: translate(-1px, 0px) rotate(9deg) skew(-20deg, 55deg);
+    transform: translate(-1px, 0) rotate(9deg) skew(-20deg, 55deg);
   }
+
   30% {
     transform: translate(-2px, 1px) rotate(6deg) skew(-20deg, 55deg);
   }
+
   40% {
     transform: translate(-2px, -2px) rotate(-8deg) skew(-13deg, 59deg);
   }
+
   60% {
     transform: translate(-7px, -1px) rotate(4deg) skew(-18deg, 58deg);
   }
+
   70% {
     transform: translate(-6px, -1px) rotate(7deg) skew(-21deg, 58deg);
   }
+
   80% {
     transform: translate(-6px, -1px) rotate(1deg) skew(-21deg, 58deg);
   }
+
   90% {
     transform: translate(-6px, -1px) rotate(-7deg) skew(-14deg, 58deg);
   }
@@ -800,59 +923,75 @@
 @keyframes foxInnerEarsRight {
   0%,
   100% {
-    transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
   }
+
   10% {
     transform: translate(1px, 1px) rotate(7deg);
   }
+
   20% {
     transform: translate(1px, 1px) rotate(7deg);
   }
+
   30% {
   }
+
   40% {
     transform: translate(2px, 1px) rotate(7deg);
   }
+
   60% {
     transform: translate(1px, 1px) rotate(7deg);
   }
+
   70% {
-    transform: translate(1px, 0px) rotate(7deg);
+    transform: translate(1px, 0) rotate(7deg);
   }
+
   80% {
-    transform: translate(1px, 0px) rotate(7deg);
+    transform: translate(1px, 0) rotate(7deg);
   }
+
   90% {
-    transform: translate(2px, 0px) rotate(7deg);
+    transform: translate(2px, 0) rotate(7deg);
   }
 }
 
 @keyframes foxEyes {
   0%,
   100% {
-    transform: translate(0px, 0px) skew(6deg, 22deg);
+    transform: translate(0, 0) skew(6deg, 22deg);
   }
+
   10% {
-    transform: translate(1px, 0px) skew(6deg, 22deg);
+    transform: translate(1px, 0) skew(6deg, 22deg);
   }
+
   20% {
-    transform: translate(-1px, 0px) skew(6deg, 22deg);
+    transform: translate(-1px, 0) skew(6deg, 22deg);
   }
+
   30% {
-    transform: translate(-2px, 0px) skew(6deg, 22deg);
+    transform: translate(-2px, 0) skew(6deg, 22deg);
   }
+
   40% {
-    transform: translate(-4px, 0px) skew(6deg, 22deg);
+    transform: translate(-4px, 0) skew(6deg, 22deg);
   }
+
   60% {
     transform: translate(-10px, 1px) skew(6deg, 22deg);
   }
+
   70% {
-    transform: translate(-9px, 0px) skew(6deg, 22deg);
+    transform: translate(-9px, 0) skew(6deg, 22deg);
   }
+
   80% {
     transform: translate(-6px, -1px) skew(6deg, 22deg);
   }
+
   90% {
     transform: translate(-5px, 1px) skew(6deg, 22deg);
   }
@@ -861,29 +1000,37 @@
 @keyframes foxNose {
   0%,
   100% {
-    transform: translate(0px, 0px) skewX(27deg) rotate(17deg);
+    transform: translate(0, 0) skewX(27deg) rotate(17deg);
   }
+
   10% {
-    transform: translate(0px, -1px) rotate(11deg) skewX(31deg);
+    transform: translate(0, -1px) rotate(11deg) skewX(31deg);
   }
+
   20% {
-    transform: translate(0px, -1px) rotate(9deg) skewX(31deg);
+    transform: translate(0, -1px) rotate(9deg) skewX(31deg);
   }
+
   30% {
     transform: translate(-1px, 1px) rotate(16deg) skewX(31deg);
   }
+
   40% {
-    transform: translate(-3px, 0px) rotate(17deg) skewX(31deg);
+    transform: translate(-3px, 0) rotate(17deg) skewX(31deg);
   }
+
   60% {
     transform: translate(-11px, -1px) rotate(9deg) skewX(31deg);
   }
+
   70% {
     transform: translate(-10px, -2px) rotate(9deg) skewX(37deg);
   }
+
   80% {
     transform: translate(-7px, -1px) rotate(14deg) skewX(37deg);
   }
+
   90% {
     transform: translate(-6px, 1px) rotate(16deg) skewX(37deg);
   }
@@ -892,28 +1039,36 @@
 @keyframes foxMouth {
   0%,
   100% {
-    transform: translate(0px, 0px);
+    transform: translate(0, 0);
   }
+
   10% {
     transform: translate(2px, 1px);
   }
+
   20% {
     transform: translate(1px, 1px);
   }
+
   30% {
   }
+
   40% {
-    transform: translate(-3px, 0px);
+    transform: translate(-3px, 0);
   }
+
   60% {
     transform: translate(-9px, 1px);
   }
+
   70% {
-    transform: translate(-7px, 0px);
+    transform: translate(-7px, 0);
   }
+
   80% {
     transform: translate(-6px, -1px);
   }
+
   90% {
     transform: translate(-4px, 1px);
   }
